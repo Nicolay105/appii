@@ -10,7 +10,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hello World!'
+    return 'Maestria Gerencia en Informática PUCESA FGP'
 
 
 @app.errorhandler(404)
